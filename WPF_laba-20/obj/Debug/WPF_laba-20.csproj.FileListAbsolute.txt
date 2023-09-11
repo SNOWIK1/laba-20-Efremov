@@ -1,0 +1,16 @@
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\bin\Debug\WPF_laba-20.exe.config
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\bin\Debug\WPF_laba-20.exe
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\bin\Debug\WPF_laba-20.pdb
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20.csproj.AssemblyReference.cache
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20.csproj.SuggestedBindingRedirects.cache
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\MainWindow.g.cs
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\App.g.cs
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20_MarkupCompile.cache
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20_MarkupCompile.lref
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\MainWindow.baml
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20.g.resources
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba_20.Properties.Resources.resources
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20.csproj.GenerateResource.cache
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20.csproj.CoreCompileInputs.cache
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20.exe
+C:\Users\user.COMP-02.000\source\repos\WPF_laba-20\WPF_laba-20\obj\Debug\WPF_laba-20.pdb
