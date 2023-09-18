@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("39383703_0-transformed.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pen.png")]
 
 

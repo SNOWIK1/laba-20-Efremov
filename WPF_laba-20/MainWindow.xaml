@@ -19,56 +19,65 @@
 
         <Menu Grid.Row="0" Grid.ColumnSpan="2" VerticalAlignment="Center" Padding="2">
             <MenuItem Header="File">
-                <MenuItem Header="New Ctrl+N">
+                <MenuItem Header="New" Click="mkNew">
                     <MenuItem.Icon>
-                        <Image Source="capypainter.png"/>
+                        <Image Source="Pencil.png" Width="100"/>
                     </MenuItem.Icon>
                 </MenuItem>
                 
-                <MenuItem Header="Open F3">
+                <MenuItem Header="Open" Click="OpenFile">
                     <MenuItem.Icon>
-                        <Image Source="capypainter.png"/>
+                        <Image Source="Open.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
 
-                <MenuItem Header="Save F2">
+                <MenuItem Header="Save" Click="SaveFile">
                     <MenuItem.Icon>
-                        <Image Source="capypainter.png"/>
+                        <Image Source="Save.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
                 
                 <Separator/>
                 
-                <MenuItem Header="Exit Alt+X">
+                <MenuItem Header="Exit" Click="Exit">
                     <MenuItem.Icon>
-                        <Image Source="capypainter.png"/>
+                        <Image Source="Exit.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
             </MenuItem>
             <MenuItem Header="Edit">
-                <MenuItem Header="Undo">
+                <MenuItem Header="Undo" Click="Undo">
                     <MenuItem.Icon>
-                        <Image Source="capypainter.png"/>
+                        <Image Source="undo.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
                 
-                <MenuItem Header="Reno">
+                <MenuItem Header="Redo" Click="Redo">
                     <MenuItem.Icon>
-                        <Image Source="capypainter.png"/>
+                        <Image Source="redo.png"/>
                     </MenuItem.Icon>
                 </MenuItem>
 
                 <MenuItem Header="Pen">
                     <MenuItem.Icon>
-                        <Image Source="capypainter.png"/>
+                        <Image Source="Pen.png"/>
                     </MenuItem.Icon>
 
                     <MenuItem Header="Style">
                         <MenuItem Header="Solid">
+                            <MenuItem.Icon>
+                                <CheckBox/>
+                            </MenuItem.Icon>
                         </MenuItem>
                         <MenuItem Header="Dot">
+                            <MenuItem.Icon>
+                                <CheckBox/>
+                            </MenuItem.Icon>
                         </MenuItem>
                         <MenuItem Header="DashDotDot">
+                            <MenuItem.Icon>
+                                <CheckBox/>
+                            </MenuItem.Icon>
                         </MenuItem>
                     </MenuItem>
 
@@ -80,7 +89,7 @@
                 </MenuItem>
             </MenuItem>
             <MenuItem Header="Help">
-                <MenuItem Header="About    F1">
+                <MenuItem Header="About" Click="About">
                     <MenuItem.Icon>
                         <Image Source="capypainter.png"/>
                     </MenuItem.Icon>
@@ -90,22 +99,24 @@
 
         <ToolBarTray Orientation="Vertical" Grid.Row="1" Grid.Column="0">
             <ToolBar>
-                <Button Width="70" Height="70">
-                    <Image Source="capypainter.png"/>
+                <Button Width="70" Height="70" Click="mkNew">
+                    <Image Source="Pencil.png"/>
+                </Button>
+                <Button Width="70" Height="70" Click="SaveFile">
+                    <Image Source="Save.png"/>
+                </Button>
+                <Button Width="70" Height="70" Click="OpenFile">
+                    <Image Source="Open.png"/>
                 </Button>
                 <Button Width="70" Height="70">
                     <Image Source="capypainter.png"/>
                 </Button>
-                <Button Width="70" Height="70">
-                    <Image Source="capypainter.png"/>
-                </Button>
-                <Button Width="70" Height="70">
-                    <Image Source="capypainter.png"/>
-                </Button>
-                <Button Width="70" Height="70">
-                    <Image Source="capypainter.png"/>
+                <Button Width="70" Height="70" Click="Exit">
+                    <Image Source="Exit.png"/>
                 </Button>
         </ToolBar>
         </ToolBarTray>
+
+        <InkCanvas x:Name="MainCanvas" Grid.Column="2" Grid.Row="2"/>
     </Grid>
 </Window>

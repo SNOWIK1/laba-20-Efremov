@@ -97,5 +97,29 @@
   <ItemGroup>
     <Resource Include="capypainter.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="PnN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pen.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
